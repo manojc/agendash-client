@@ -1,0 +1,30 @@
+{
+	"name": "agendash-client",
+	"version": "1.0.0",
+	"description": "Agendash client with Express routing middleware",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/manojc/agendash-client.git"
+	},
+	"author": "Manoj Chalode <chalodem@gmail.com>",
+	"keywords": [
+		"Agenda",
+		"Agendash"
+	],
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/manojc/agendash-client/issues"
+	},
+	"homepage": "https://github.com/manojc/agendash-client#readme",
+	"dependencies": {
+		"agenda": "^2.0.2",
+		"agendash": "^0.4.0",
+		"express": "^4.16.4",
+		"mongoose": "^5.3.4"
+	},
+	"devDependencies": {}
+}
