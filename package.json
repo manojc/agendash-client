@@ -1,6 +1,6 @@
 {
 	"name": "agendash-client",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Agendash client with Express routing middleware & google OAuth2 authentication",
 	"main": "./lib/app.js",
 	"scripts": {
