@@ -1,16 +1,43 @@
 # agendash-client
 
+[![npm version][npm-image]][npm-url]
+[![node][node-version-image]][node-version-url]
+[![License][license-image]][license-url]
+[![npm][downloads-image]][downloads-url]
+[![Hackage-Deps][dependency-image]][dependency-url]
+[![David][dev-dependency-image]][dev-dependency-url]
+
+[npm-url]: https://www.npmjs.com/package/agendash-client
+[npm-image]: https://img.shields.io/npm/v/agendash-client.svg
+
+[license-url]: https://opensource.org/licenses/MIT
+[license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg
+
+[downloads-url]: https://www.npmjs.com/package/agendash-client
+[downloads-image]: https://img.shields.io/npm/dm/agendash-client.svg
+
+[node-version-url]: https://github.com/manojc/agendash-client
+[node-version-image]: https://img.shields.io/badge/node-%3E=6.0-blue.svg?style=flat-square
+
+[dependency-url]: https://www.npmjs.com/package/agendash-client
+[dependency-image]: https://img.shields.io/hackage-deps/v/lens.svg
+
+[dev-dependency-url]: https://www.npmjs.com/package/agendash-client
+[dev-dependency-image]: https://img.shields.io/david/dev/manojc/agendash-client.svg
+
 ## What is this?
 
-Agendash client is a small POC to connect Agendash UI with an Express middleware.
+`agendash-client` is a node package to connect Agendash UI with an Express middleware.
 
-The POC also uses a authentication routing middleware to secure the agendash router app.
+this package uses google OAuth2 authentication routing middleware to secure the agendash app route.
 
 Install dependencies with `npm install` command
 
 Make sure you are connected to mongo db.
 
-Run the app with `npm start` command
+Run the app with `npm start` command.
+
+The demo app runs on http://localhost:3000 by default.
 
 ---
 
