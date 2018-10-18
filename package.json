@@ -1,10 +1,10 @@
 {
 	"name": "agendash-client",
-	"version": "1.0.0",
-	"description": "Agendash client with Express routing middleware",
-	"main": "app.js",
+	"version": "0.0.1",
+	"description": "Agendash client with Express routing middleware & google OAuth2 authentication",
+	"main": "./lib/app.js",
 	"scripts": {
-		"start": "node app.js"
+		"start": "node ./demo/server.js"
 	},
 	"repository": {
 		"type": "git",
@@ -13,7 +13,8 @@
 	"author": "Manoj Chalode <chalodem@gmail.com>",
 	"keywords": [
 		"Agenda",
-		"Agendash"
+		"Agendash",
+		"OAuth2"
 	],
 	"license": "ISC",
 	"bugs": {
