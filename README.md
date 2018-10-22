@@ -53,6 +53,9 @@ AGENDASH_CLIENT_PORT=3000
 # agendash dashboard title
 AGENDASH_CLIENT_TITLE=Agenda
 
+# agendash disable auth (default false, set it to any not empty value to make it true)
+AGENDASH_CLIENT_DISABLE_AUTH=TRUE
+
 # Google auth credentials (for more info - https://auth0.com/docs/connections/social/google)
 AGENDASH_CLIENT_GOOGLE_CLIENT_ID=AGENDASH_CLIENT_GOOGLE_CLIENT_ID
 AGENDASH_CLIENT_GOOGLE_CLIENT_SECRET=AGENDASH_CLIENT_GOOGLE_CLIENT_SECRET
